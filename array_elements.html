@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=["anand",28,"male","software Engineer"];
+
+        document.write(a,"<br>");
+        a[1]=32; //update value
+        document.write(a,"<br>");
+        delete a[3]; //delete index value
+        document.write(a,"<br>");
+
+    </script>
+
+    <script>
+        // sorting and reverse
+        var b =["Neha","sahil","Zebra","komal"];
+        document.write(b,"<br>");
+        b.sort(); //a to z asc
+        document.write(b,"<br>");
+        b.reverse(); //reverse
+        document.write(b,"<br>");
+    </script>
+
+    <script>
+       //pop and push-incomplete ex
+       var c=["sahil","pallvai ","kajal","varun"];
+       document.write(c,"<br>");
+       c.pop();
+        c.pop();
+         c.pop();
+         document.write(c,"<br>");
+         c.push("yogeshwar");
+         c.push("vaibhav");
+         c.push("Kahnaiya");
+
+    </script>
+
+    <script>
+        var a = ["sahil","Arbaj","Neha","sukanya"];
+        var b = ["pallavi","Eknath","yogesh","anand"];
+        var x =["mayur","gaurav","Chandani","Pranali"];
+
+        var c=a.concat(b,x);
+        document.write(c,"<br>");
+        var d=c.join("/");
+        document.write(d,"<br>");
+    </script>
+</body>
+</html>
