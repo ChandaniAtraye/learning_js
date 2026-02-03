@@ -51,5 +51,22 @@
         var d=c.join("/");
         document.write(d,"<br>");
     </script>
+
+    <script>
+        document.write("<h2> Slice Example </h2>");
+
+        var a =["sahil0","arbaj1","Tushar2","varun3","sanjana4","sahrukh5"];
+        document.write(a,"<br>");
+
+        var b = a.slice(0,5); //start, end element exclude
+        document.write(b,"<br>");
+
+        document.write("<h2> splice Example </h2>");
+         var x =["sahil0","arbaj1","Tushar2","varun3","sanjana4","sahrukh5"];
+        document.write(x,"<br>");
+
+        x.splice(2,3,"virat","rohit");//index,how many deleat,"new value "
+        document.write(x,"<br>");
+    </script>
 </body>
 </html>
